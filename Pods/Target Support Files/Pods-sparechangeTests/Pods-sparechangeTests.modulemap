@@ -1,0 +1,6 @@
+framework module Pods_sparechangeTests {
+  umbrella header "Pods-sparechangeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
