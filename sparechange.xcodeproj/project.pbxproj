@@ -24,6 +24,7 @@
 		F2CE9FAD1FC251D30078B88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CE9FAC1FC251D00078B88F /* Assets.xcassets */; };
 		F2CE9FB81FC256FF0078B88F /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9FB71FC256FE0078B88F /* UIHelpers.swift */; };
 		F2CE9FBA1FC25FBB0078B88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CE9FB91FC25FBB0078B88F /* Main.storyboard */; };
+		F2DD4B661FD47D9C00B17ED1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD4B651FD47D9B00B17ED1 /* ProfileViewController.swift */; };
 		F2F4551F1FCF4482004BA33D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4551E1FCF4482004BA33D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		F2CE9FAC1FC251D00078B88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CE9FB71FC256FE0078B88F /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
 		F2CE9FB91FC25FBB0078B88F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2DD4B651FD47D9B00B17ED1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F2F4551E1FCF4482004BA33D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +137,7 @@
 				F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */,
 				F20D4CE11FD327DC000644A9 /* CharitiesTableViewController.swift */,
 				F2CE9F7C1FC250DB0078B88F /* ViewController.swift */,
+				F2DD4B651FD47D9B00B17ED1 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				F20D4CE81FD32B41000644A9 /* Post.swift in Sources */,
 				F2CE9F7D1FC250DB0078B88F /* ViewController.swift in Sources */,
 				F20D4CE41FD32987000644A9 /* Charity.swift in Sources */,
+				F2DD4B661FD47D9C00B17ED1 /* ProfileViewController.swift in Sources */,
 				F27E85461FCF8F380017A74F /* RegisterNewViewController.swift in Sources */,
 				F20D4CEA1FD32B4C000644A9 /* PostHeaderCell.swift in Sources */,
 				F2CE9F7B1FC250DB0078B88F /* AppDelegate.swift in Sources */,
