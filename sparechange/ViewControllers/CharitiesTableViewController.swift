@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import Firebase
+
 
 class CharitiesTableViewController: UITableViewController
 {
+
     var posts: [Post]?
     
     struct Storyboard {
@@ -17,6 +20,10 @@ class CharitiesTableViewController: UITableViewController
         static let postHeaderCell = "PostHeaderCell"
         static let postHeaderHeight: CGFloat = 57.0
         static let postCellDefaultHeight: CGFloat = 578.0
+    }
+    
+    @IBAction func logOut(_ sender: Any) {
+        logout()
     }
     
     override func viewDidLoad() {
@@ -34,10 +41,18 @@ class CharitiesTableViewController: UITableViewController
         self.posts = Post.fetchPosts()
         self.tableView.reloadData()
     }
+    
+    func logout(){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginViewController = storyboard.instantiateViewController(withIdentifier: "login")
+        present(loginViewController, animated: true, completion: nil)
+    }
 }
 
 extension CharitiesTableViewController
 {
+    
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         if let posts = posts {
             return posts.count
@@ -77,7 +92,6 @@ extension CharitiesTableViewController
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return Storyboard.postHeaderHeight
     }
-    
     
     
 }

@@ -1,0 +1,10 @@
+
+github 'braintree/braintree-ios-drop-in'
+
+BraintreeDropIn.framework
+BraintreeUIKit.framework
+BraintreeCard.framework
+BraintreeCore.framework
+
+BraintreeApplePay.framework
+

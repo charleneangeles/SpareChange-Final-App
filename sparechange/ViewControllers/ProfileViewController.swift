@@ -14,9 +14,10 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     let storageRef = Storage.storage().reference()
     let databaseRef = Database.database().reference()
     let userNodeRef = Database.database().reference().child("users")
-    
+    let userNodeRef2 = Database.database().reference().child("donations")
     @IBOutlet weak var profile_image: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var donationLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -28,8 +29,10 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
             {
                 let name = dictionary["name"] as? String
                 self.usernameLabel.text = "\(name!)"
+
             }
         })
+        
         }
     
     @IBAction func uploadImageButton(_ sender: Any) {

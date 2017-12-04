@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25BF36450AD0B0B9AE2AC7C2 /* Pods_sparechangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF920FDBC246B2C48A89AA10 /* Pods_sparechangeUITests.framework */; };
-		9B0D0E0E89DEA09E4CBFE3F6 /* Pods_sparechangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03D72C48817B3BFC95D4B1 /* Pods_sparechangeTests.framework */; };
-		EA426712AE57C1A3C19827E0 /* Pods_sparechange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6822EA8E59B09F1B63449CE /* Pods_sparechange.framework */; };
+		A49E6791774DCD7C0B9FF4E3 /* Pods_sparechangeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CD6B53234261B294F194F8 /* Pods_sparechangeTests.framework */; };
+		BD1BF4074C951C688489E859 /* Pods_sparechangeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A504C37BDA34249C93EF0699 /* Pods_sparechangeUITests.framework */; };
+		C41C7A72DBA70CD9664D9176 /* Pods_sparechange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF6C2D9FF54DD50AD3F140E /* Pods_sparechange.framework */; };
 		F20D4CE21FD327DC000644A9 /* CharitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE11FD327DC000644A9 /* CharitiesTableViewController.swift */; };
 		F20D4CE41FD32987000644A9 /* Charity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE31FD32986000644A9 /* Charity.swift */; };
 		F20D4CE81FD32B41000644A9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE71FD32B41000644A9 /* Post.swift */; };
 		F20D4CEA1FD32B4C000644A9 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE91FD32B4C000644A9 /* PostHeaderCell.swift */; };
 		F20D4CEC1FD32B88000644A9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CEB1FD32B88000644A9 /* PostCell.swift */; };
+		F26531571FD4D84B00834A88 /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26531561FD4D84B00834A88 /* DonationsViewController.swift */; };
 		F27E85461FCF8F380017A74F /* RegisterNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */; };
 		F2CE9F7B1FC250DB0078B88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F7A1FC250DB0078B88F /* AppDelegate.swift */; };
 		F2CE9F7D1FC250DB0078B88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F7C1FC250DB0078B88F /* ViewController.swift */; };
@@ -46,20 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF6C2D9FF54DD50AD3F140E /* Pods_sparechange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		428C194B8C5C9AFF3B42D5F8 /* Pods-sparechange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sparechange/Pods-sparechange.debug.xcconfig"; sourceTree = "<group>"; };
 		451FE24B2EE35BA2A90F8513 /* Pods-sparechangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechangeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sparechangeUITests/Pods-sparechangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B03D72C48817B3BFC95D4B1 /* Pods_sparechangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A08EE34ACDDD3B0C533BE34 /* Pods-sparechangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechangeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sparechangeUITests/Pods-sparechangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97CD6B53234261B294F194F8 /* Pods_sparechangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechangeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8F22CA13073CEE7E704245 /* Pods-sparechange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechange.release.xcconfig"; path = "Pods/Target Support Files/Pods-sparechange/Pods-sparechange.release.xcconfig"; sourceTree = "<group>"; };
-		AF920FDBC246B2C48A89AA10 /* Pods_sparechangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A504C37BDA34249C93EF0699 /* Pods_sparechangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechangeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09319209AD43899223BDC93 /* Pods-sparechangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechangeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sparechangeTests/Pods-sparechangeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6822EA8E59B09F1B63449CE /* Pods_sparechange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sparechange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27F01A125432DF20834A8DA /* Pods-sparechangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sparechangeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sparechangeTests/Pods-sparechangeTests.release.xcconfig"; sourceTree = "<group>"; };
 		F20D4CE11FD327DC000644A9 /* CharitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharitiesTableViewController.swift; sourceTree = "<group>"; };
 		F20D4CE31FD32986000644A9 /* Charity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charity.swift; sourceTree = "<group>"; };
 		F20D4CE71FD32B41000644A9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F20D4CE91FD32B4C000644A9 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		F20D4CEB1FD32B88000644A9 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F26531561FD4D84B00834A88 /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
 		F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewViewController.swift; sourceTree = "<group>"; };
 		F2CE9F771FC250DB0078B88F /* sparechange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sparechange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CE9F7A1FC250DB0078B88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA426712AE57C1A3C19827E0 /* Pods_sparechange.framework in Frameworks */,
+				C41C7A72DBA70CD9664D9176 /* Pods_sparechange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0D0E0E89DEA09E4CBFE3F6 /* Pods_sparechangeTests.framework in Frameworks */,
+				A49E6791774DCD7C0B9FF4E3 /* Pods_sparechangeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BF36450AD0B0B9AE2AC7C2 /* Pods_sparechangeUITests.framework in Frameworks */,
+				BD1BF4074C951C688489E859 /* Pods_sparechangeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +125,9 @@
 		42106361D5A7824F7FBA02F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6822EA8E59B09F1B63449CE /* Pods_sparechange.framework */,
-				4B03D72C48817B3BFC95D4B1 /* Pods_sparechangeTests.framework */,
-				AF920FDBC246B2C48A89AA10 /* Pods_sparechangeUITests.framework */,
+				0EF6C2D9FF54DD50AD3F140E /* Pods_sparechange.framework */,
+				97CD6B53234261B294F194F8 /* Pods_sparechangeTests.framework */,
+				A504C37BDA34249C93EF0699 /* Pods_sparechangeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 				F20D4CE11FD327DC000644A9 /* CharitiesTableViewController.swift */,
 				F2CE9F7C1FC250DB0078B88F /* ViewController.swift */,
 				F2DD4B651FD47D9B00B17ED1 /* ProfileViewController.swift */,
+				F26531561FD4D84B00834A88 /* DonationsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -354,9 +357,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sparechange/Pods-sparechange-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/Braintree/Braintree-3D-Secure-Localization.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/BraintreeDropIn/Braintree-UIKit-Localization.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -400,17 +407,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-sparechange/Pods-sparechange-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -516,6 +525,7 @@
 				F20D4CE81FD32B41000644A9 /* Post.swift in Sources */,
 				F2CE9F7D1FC250DB0078B88F /* ViewController.swift in Sources */,
 				F20D4CE41FD32987000644A9 /* Charity.swift in Sources */,
+				F26531571FD4D84B00834A88 /* DonationsViewController.swift in Sources */,
 				F2DD4B661FD47D9C00B17ED1 /* ProfileViewController.swift in Sources */,
 				F27E85461FCF8F380017A74F /* RegisterNewViewController.swift in Sources */,
 				F20D4CEA1FD32B4C000644A9 /* PostHeaderCell.swift in Sources */,
@@ -672,7 +682,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5GER5EN5K;
 				INFOPLIST_FILE = sparechange/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charangeles.sparechange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -690,7 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q5GER5EN5K;
 				INFOPLIST_FILE = sparechange/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charangeles.sparechange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
