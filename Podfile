@@ -18,9 +18,11 @@ use_frameworks!
   pod 'BraintreeDropIn'
   pod 'Braintree/PayPal'
   pod 'Braintree/Venmo'
+  pod 'lottie-ios'
   pod 'Braintree/Apple-Pay'
   pod 'Braintree/3D-Secure'
-  pod 'lottie-ios'
+
+
 
   target 'sparechangeTests' do
     inherit! :search_paths

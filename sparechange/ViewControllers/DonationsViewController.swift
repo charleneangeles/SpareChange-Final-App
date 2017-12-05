@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import Braintree
 import BraintreeDropIn
+import Lottie
 
 class DonationsViewController: UIViewController {
     @IBOutlet weak var donationLogo: UIImageView!
@@ -21,16 +22,16 @@ class DonationsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+   
     }
     
     @IBAction func btnPay(_ sender: Any) {
+        animation()
+        
         showDropIn(clientTokenOrTokenizationKey: "sandbox_tgvrqw26_zv437twzv5ggtxvm")
        
         if let amount = txtDonation.text{
-            
-            
-//            userNodeRef.child(Auth.auth().currentUser.uid)
-//                .createDonation(withAmount: amount) {(user, error) in
+
             let user = Auth.auth().currentUser
                 if user != nil{
                     
@@ -48,20 +49,24 @@ class DonationsViewController: UIViewController {
                             self.present(alertController, animated: true, completion: nil)
                         }
                     })
-//                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab")
-//                    self.present(vc!, animated: true, completion: nil)
-                }
-                else{
-//                    let alertController = UIAlertController(title: "Error", message: (error?.localizedDescription)!, preferredStyle: UIAlertControllerStyle.alert)
-//
-//                    let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default){
-//                        (result : UIAlertAction) -> Void in print("OK")
-//                    }
-//                    alertController.addAction(okAction)
-//                    self.present(alertController, animated: true, completion: nil)
                 }
 
         }
+
+    }
+    
+    func animation(){
+        let animationView = LOTAnimationView(name: "wallet_&_coin.json")
+        animationView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
+        animationView.center = self.view.center
+        
+        animationView.contentMode = .scaleAspectFill
+        animationView.animationSpeed = 0.5
+        animationView.loopAnimation = true
+        
+        view.addSubview(animationView)
+        
+        animationView.play()
     }
     
     func showDropIn(clientTokenOrTokenizationKey: String) {
