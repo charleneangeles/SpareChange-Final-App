@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hKZ-VU-qgw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AQY-r4-gKK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vsE-QG-iQl" userLabel="TxtEmail">
-                                <rect key="frame" x="44" y="286" width="287" height="50"/>
+                                <rect key="frame" x="44" y="285" width="287" height="53"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -52,8 +52,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPARE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sir-4y-zWy">
+                                <rect key="frame" x="240" y="94" width="91" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" red="0.069209702309999996" green="0.59358590840000003" blue="0.57481801509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aLo-ha-J6v" firstAttribute="trailing" secondItem="sir-4y-zWy" secondAttribute="trailing" constant="44" id="eiQ-lZ-J4I"/>
+                            <constraint firstItem="sir-4y-zWy" firstAttribute="leading" secondItem="aLo-ha-J6v" secondAttribute="leading" constant="240" id="pAA-rx-7FF"/>
+                            <constraint firstItem="sir-4y-zWy" firstAttribute="top" secondItem="aLo-ha-J6v" secondAttribute="top" constant="74" id="tIe-6A-Wye"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aLo-ha-J6v"/>
                     </view>
                     <connections>
@@ -64,7 +75,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lns-HG-CB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2023" y="-43"/>
+            <point key="canvasLocation" x="-2023.2" y="-43.628185907046479"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="cul-D6-6HU">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="AQY-r4-gKK" customClass="PageViewController" customModule="sparechange" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGZ-Ei-3JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2857" y="661"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UNS-qc-hy7">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="Ya8-ai-enb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vph-7m-aN8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.62414736680000005" green="0.03935022128" blue="0.0063731726739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Xqv-V5-MPQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M0D-kO-6wK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2111" y="661"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DuW-cK-ww4">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="dZg-6C-bKQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9s2-0L-hpg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.069209702309999996" green="0.59358590840000003" blue="0.57481801509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.069209702309999996" green="0.59358590840000003" blue="0.57481801509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="25e-Ac-h9G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAd-hN-BwT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1383" y="661"/>
         </scene>
         <!--Register New View Controller-->
         <scene sceneID="Vyb-JE-zeu">
@@ -86,7 +136,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CUP-FW-d8D" userLabel="TxtEmail">
-                                <rect key="frame" x="44" y="269" width="287" height="50"/>
+                                <rect key="frame" x="44" y="271" width="287" height="52"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -106,6 +156,9 @@
                                 <state key="normal" title="⥢">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hKZ-VU-qgw" kind="show" id="SvY-ml-qoA"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7zy-XN-BgJ" userLabel="TxtPassword">
                                 <rect key="frame" x="44" y="368" width="287" height="50"/>
@@ -114,8 +167,19 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPARE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVh-CY-SCv">
+                                <rect key="frame" x="244" y="95" width="91" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" red="0.069209702309999996" green="0.59358590840000003" blue="0.57481801509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LVh-CY-SCv" firstAttribute="top" secondItem="oEf-mH-3K5" secondAttribute="top" constant="75" id="0hQ-Qq-0c9"/>
+                            <constraint firstItem="oEf-mH-3K5" firstAttribute="trailing" secondItem="LVh-CY-SCv" secondAttribute="trailing" constant="40" id="P5v-6n-8w6"/>
+                            <constraint firstItem="LVh-CY-SCv" firstAttribute="leading" secondItem="oEf-mH-3K5" secondAttribute="leading" constant="244" id="WcH-lI-ui7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="oEf-mH-3K5"/>
                     </view>
                     <connections>
@@ -126,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inG-2m-Utx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1334" y="-44"/>
+            <point key="canvasLocation" x="-1335.2" y="-44.527736131934034"/>
         </scene>
         <!--tab-->
         <scene sceneID="8k6-4T-lvh">
@@ -150,7 +214,7 @@
         <scene sceneID="er5-YA-30Y">
             <objects>
                 <navigationController title="Charities" automaticallyAdjustsScrollViewInsets="NO" id="AUZ-cD-8A0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Charities" selectedImage="icon-home-filled" id="4Yc-rD-TWM">
+                    <tabBarItem key="tabBarItem" title="Charity Feed" image="Webp.net-resizeimage (2)" landscapeImage="Icon" id="4Yc-rD-TWM">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -172,7 +236,7 @@
             </objects>
             <point key="canvasLocation" x="74" y="-44"/>
         </scene>
-        <!--Browse Charities-->
+        <!--Charity Feed-->
         <scene sceneID="8HZ-bM-QOk">
             <objects>
                 <tableViewController id="m5u-u9-Y2e" customClass="CharitiesTableViewController" customModule="sparechange" customModuleProvider="target" sceneMemberID="viewController">
@@ -192,7 +256,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" text="Greenpeace USA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEr-3P-U2i">
                                             <rect key="frame" x="16" y="35" width="343" height="21"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="19"/>
                                             <color key="textColor" red="0.069209702309999996" green="0.59358590840000003" blue="0.57481801509999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -368,7 +432,7 @@
                             <outlet property="delegate" destination="m5u-u9-Y2e" id="pL4-8e-iz6"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Browse Charities" id="ko6-Cf-N4B">
+                    <navigationItem key="navigationItem" title="Charity Feed" id="ko6-Cf-N4B">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="2bj-kb-eZs">
                             <color key="tintColor" red="0.0" green="0.47934520244598389" blue="0.99908632040023804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -508,7 +572,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LV6-AH-VMn">
                                 <rect key="frame" x="16" y="343" width="343" height="77"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
                                 <color key="textColor" red="0.34908187389373779" green="0.34510579705238342" blue="0.34500634670257568" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -593,7 +657,7 @@
         <scene sceneID="Jnc-82-fan">
             <objects>
                 <navigationController title="Profile" automaticallyAdjustsScrollViewInsets="NO" id="8Ar-oM-mZK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="ArN-Z9-9hV"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="Webp.net-resizeimage (4)" id="ArN-Z9-9hV"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="T4k-KS-CHf">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -613,9 +677,14 @@
         <image name="2" width="600" height="597"/>
         <image name="Blank-Photo" width="600" height="557"/>
         <image name="Donations" width="633" height="1125"/>
+        <image name="Icon" width="512" height="512"/>
         <image name="ProfilePage" width="633" height="1076"/>
         <image name="Sign in" width="750" height="1334"/>
         <image name="Sign up" width="750" height="1334"/>
-        <image name="icon-home-filled" width="16" height="16"/>
+        <image name="Webp.net-resizeimage (2)" width="25" height="25"/>
+        <image name="Webp.net-resizeimage (4)" width="50" height="50"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SvY-ml-qoA"/>
+    </inferredMetricsTieBreakers>
 </document>

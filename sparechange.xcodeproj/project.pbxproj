@@ -15,10 +15,13 @@
 		F20D4CE81FD32B41000644A9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE71FD32B41000644A9 /* Post.swift */; };
 		F20D4CEA1FD32B4C000644A9 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CE91FD32B4C000644A9 /* PostHeaderCell.swift */; };
 		F20D4CEC1FD32B88000644A9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D4CEB1FD32B88000644A9 /* PostCell.swift */; };
+		F25D2B791FD64C8B00B22B96 /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F25D2B781FD64C8A00B22B96 /* servishero_loading.json */; };
+		F25D2B7D1FD64D5400B22B96 /* atm_link.json in Resources */ = {isa = PBXBuildFile; fileRef = F25D2B7C1FD64D5400B22B96 /* atm_link.json */; };
 		F26531571FD4D84B00834A88 /* DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26531561FD4D84B00834A88 /* DonationsViewController.swift */; };
 		F27E85461FCF8F380017A74F /* RegisterNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */; };
+		F29B23ED1FD63EF100A4B231 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29B23EC1FD63EF100A4B231 /* PageViewController.swift */; };
+		F29B23EF1FD646C800A4B231 /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = F29B23EE1FD646C800A4B231 /* money.json */; };
 		F2CE9F7B1FC250DB0078B88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F7A1FC250DB0078B88F /* AppDelegate.swift */; };
-		F2CE9F7D1FC250DB0078B88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F7C1FC250DB0078B88F /* ViewController.swift */; };
 		F2CE9F901FC250DB0078B88F /* sparechangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F8F1FC250DB0078B88F /* sparechangeTests.swift */; };
 		F2CE9F9B1FC250DB0078B88F /* sparechangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9F9A1FC250DB0078B88F /* sparechangeUITests.swift */; };
 		F2CE9FA91FC251970078B88F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2CE9FA81FC251970078B88F /* GoogleService-Info.plist */; };
@@ -61,11 +64,14 @@
 		F20D4CE71FD32B41000644A9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F20D4CE91FD32B4C000644A9 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		F20D4CEB1FD32B88000644A9 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F25D2B781FD64C8A00B22B96 /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
+		F25D2B7C1FD64D5400B22B96 /* atm_link.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = atm_link.json; sourceTree = "<group>"; };
 		F26531561FD4D84B00834A88 /* DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsViewController.swift; sourceTree = "<group>"; };
 		F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNewViewController.swift; sourceTree = "<group>"; };
+		F29B23EC1FD63EF100A4B231 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F29B23EE1FD646C800A4B231 /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
 		F2CE9F771FC250DB0078B88F /* sparechange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sparechange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CE9F7A1FC250DB0078B88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2CE9F7C1FC250DB0078B88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2CE9F861FC250DB0078B88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CE9F8B1FC250DB0078B88F /* sparechangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sparechangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CE9F8F1FC250DB0078B88F /* sparechangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparechangeTests.swift; sourceTree = "<group>"; };
@@ -138,9 +144,9 @@
 				F2F4551E1FCF4482004BA33D /* LoginViewController.swift */,
 				F27E85451FCF8F380017A74F /* RegisterNewViewController.swift */,
 				F20D4CE11FD327DC000644A9 /* CharitiesTableViewController.swift */,
-				F2CE9F7C1FC250DB0078B88F /* ViewController.swift */,
 				F2DD4B651FD47D9B00B17ED1 /* ProfileViewController.swift */,
 				F26531561FD4D84B00834A88 /* DonationsViewController.swift */,
+				F29B23EC1FD63EF100A4B231 /* PageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -156,6 +162,16 @@
 				F2CE9F7A1FC250DB0078B88F /* AppDelegate.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		F29B23E71FD6319400A4B231 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F25D2B781FD64C8A00B22B96 /* servishero_loading.json */,
+				F25D2B7C1FD64D5400B22B96 /* atm_link.json */,
+				F29B23EE1FD646C800A4B231 /* money.json */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		F2CE9F6E1FC250DB0078B88F = {
@@ -183,6 +199,7 @@
 		F2CE9F791FC250DB0078B88F /* sparechange */ = {
 			isa = PBXGroup;
 			children = (
+				F29B23E71FD6319400A4B231 /* SupportingFiles */,
 				F239559E1FD3B6FB00268F82 /* ViewControllers */,
 				F239559F1FD3B71300268F82 /* Classes */,
 				F2CE9FB91FC25FBB0078B88F /* Main.storyboard */,
@@ -328,8 +345,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25D2B791FD64C8B00B22B96 /* servishero_loading.json in Resources */,
 				F2CE9FBA1FC25FBB0078B88F /* Main.storyboard in Resources */,
 				F2CE9FA91FC251970078B88F /* GoogleService-Info.plist in Resources */,
+				F29B23EF1FD646C800A4B231 /* money.json in Resources */,
+				F25D2B7D1FD64D5400B22B96 /* atm_link.json in Resources */,
 				F2CE9FAD1FC251D30078B88F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +432,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -421,6 +442,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,12 +545,12 @@
 				F20D4CE21FD327DC000644A9 /* CharitiesTableViewController.swift in Sources */,
 				F2CE9FB81FC256FF0078B88F /* UIHelpers.swift in Sources */,
 				F20D4CE81FD32B41000644A9 /* Post.swift in Sources */,
-				F2CE9F7D1FC250DB0078B88F /* ViewController.swift in Sources */,
 				F20D4CE41FD32987000644A9 /* Charity.swift in Sources */,
 				F26531571FD4D84B00834A88 /* DonationsViewController.swift in Sources */,
 				F2DD4B661FD47D9C00B17ED1 /* ProfileViewController.swift in Sources */,
 				F27E85461FCF8F380017A74F /* RegisterNewViewController.swift in Sources */,
 				F20D4CEA1FD32B4C000644A9 /* PostHeaderCell.swift in Sources */,
+				F29B23ED1FD63EF100A4B231 /* PageViewController.swift in Sources */,
 				F2CE9F7B1FC250DB0078B88F /* AppDelegate.swift in Sources */,
 				F20D4CEC1FD32B88000644A9 /* PostCell.swift in Sources */,
 			);

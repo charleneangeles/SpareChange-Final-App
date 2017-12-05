@@ -29,7 +29,6 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
             {
                 let name = dictionary["name"] as? String
                 self.usernameLabel.text = "\(name!)"
-
             }
         })
         

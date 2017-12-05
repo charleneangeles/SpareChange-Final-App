@@ -60,7 +60,7 @@ class DonationsViewController: UIViewController {
 //                    alertController.addAction(okAction)
 //                    self.present(alertController, animated: true, completion: nil)
                 }
-//            }
+
         }
     }
     
